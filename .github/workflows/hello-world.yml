@@ -1,8 +1,11 @@
 name: hello-world
-on: push
+on:
+  push:
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/hello-world@main
+      - uses: actions/checkout@v2
       - run: make say-hello
