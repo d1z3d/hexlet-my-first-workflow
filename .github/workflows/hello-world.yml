@@ -4,5 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt update
       - run: sudo apt install make
       - run: make say-hello
