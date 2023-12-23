@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/hello-world
+      - uses: actions/hello-world@main
       - run: make say-hello
