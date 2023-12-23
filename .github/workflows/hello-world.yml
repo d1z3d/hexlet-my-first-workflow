@@ -4,5 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: sudo apt install make
+      - uses: actions/hello-world
       - run: make say-hello
