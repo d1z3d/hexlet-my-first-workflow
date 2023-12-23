@@ -4,7 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/hexlet-my-first-workflow
-      - run: sudo apt update
       - run: sudo apt install make
       - run: make say-hello
